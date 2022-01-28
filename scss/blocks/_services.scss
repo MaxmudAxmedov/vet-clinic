@@ -36,14 +36,16 @@
   top: 242px;
   right: 10px;
 }
-.services__arrow-right:hover{
-  color: #fff;
-}
+
 .arrow{
   transition: all 0.3s ease-in-out;
 }
 .arrow:hover{
   background-color: #fff;
+}
+.arrow:active{
+  background-color: #fff;
+  opacity: 0.6;
 }
 
 .services__title{
