@@ -1,0 +1,56 @@
+.commit{
+  margin-bottom: 191px;
+  position: relative;
+}
+.commit::before{
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 175px;
+  width: 142px;
+  height: 128px;
+  background-image: url("../../image-svg/string-buttom.svg");
+  background-repeat: no-repeat;
+}
+.commit::after{
+  content: "";
+  position: absolute;
+  top: 80px;
+  right: 85px;
+  width: 142px;
+  height: 128px;
+  background-image: url("../../image-svg/string-top.svg");
+  background-repeat: no-repeat;
+}
+.commit__line-top{
+  width: 140px;
+  height: 0px;
+  border: 1px solid #DBDBDB;
+  margin: 0 auto;
+}
+.commit__content{
+  width: 753px;
+  margin: 0 auto;
+  margin-top: 43px;
+  margin-bottom: 35px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;;
+  color: #949494;
+}
+.commit__line-buttom{
+  width: 140px;
+  height: 0px;
+  border: 1px solid #DBDBDB;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.commit__text{
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #333333;
+  margin: 0;
+}

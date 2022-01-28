@@ -1,0 +1,97 @@
+.hero{
+  background-color: #fff;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  padding: 20px 0; 
+}
+.hero__block{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.hero__link{
+  display: inline-block;
+  text-decoration: none;
+  transition: opacity 0.3s ease-in-out;
+}
+.hero__link:hover{
+  opacity: 0.8
+}
+.hero__link:active{
+  opacity: 0.6
+}
+.hero__site-logo{
+  height: 86px;
+  width: 178px;
+}
+.nav__list{
+  width: 692px;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  margin-left: 148px;
+  padding: 0;
+}
+.nav__item + .nav__item{
+  margin-left: 55px;
+}
+.nav__item:nth-child(1){
+  position: relative;
+}
+.nav__item:nth-child(1)::before{
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: -23px;
+  width: 15px;
+  height: 15px;
+  background-image: url("../../image-svg/fish-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav__page-link{
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  border-bottom: 4px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+.nav__page-link:hover{
+  border-bottom: 4px solid #F4FFAD;
+}
+.nav__page-link:active{
+  border-bottom: 4px solid #F4FFAD;
+  opacity: 0.6;
+}
+.hero__next-link{
+  position: relative;
+  display: inline-block;
+  margin-left: 195px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  transition: all 0.3s ease-in-out;
+}
+.hero__next-link:hover{
+  color: #FFBD54;
+}
+.hero__next-link:active{
+  color: #333333;
+  opacity: 0.8; 
+}
+.hero__next-link::before{
+  content: "";
+  position: absolute;
+  left: -25px;
+  width: 23px;
+  height: 21px;
+  background-image: url("../../image-svg/animal-footprint.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,91 @@
+.feedback{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 247px;
+}
+.feedback__iframe{
+  width: 35%;
+  height: 649px;
+}
+.feedback__content{
+  position: relative;
+  width: 65%;
+  height: 649px;
+  background-image: url("../../image-png/fish-and-text.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: calc(50% - 145px);
+  background-color: #333333;
+}
+.feedback__form{
+  position: absolute;
+  top: 60px;
+  left: 160px;
+  display: flex;
+  flex-direction: column;
+}
+.feedback__title{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 14px;
+}
+.feedback__text-block{
+  width: 343px;
+}
+.feedback__text{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin: 0;
+  margin-bottom: 29px;
+}
+.feedback__input{
+  width: 375px;
+  border: none;
+  padding: 16px 0px 13px 22px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+  margin-bottom: 14px;
+}
+
+.feedback__textarea{
+  width: 375px;
+  border: none;
+  margin-bottom: 30px;
+  padding: 17px 0 86px 22px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #949494;
+  resize: vertical;
+}
+.feedback__btn{
+  border: none;
+  padding: 15px 49px 14px 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #FFBD54;
+  transition: all 0.3s ease-in-out;
+}
+.feedback__btn:hover{
+  color: #FFBD54;
+  background-color: #333333;
+}
+.feedback__btn:hover{
+  color: #FFBD54;
+  background-color: #333333;
+  opacity: 0.6;
+}

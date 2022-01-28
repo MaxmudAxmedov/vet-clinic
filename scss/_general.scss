@@ -15,9 +15,14 @@ body {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	font-family:  'Arial', 'sans-serif';
+	font-family:  'Futura PT', sans-serif;
+	font-style: normal;
 	margin: 0;
 	padding: 0;
+	background-color: #F9F9F9;
+	background-image: url("/image-png/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 img {

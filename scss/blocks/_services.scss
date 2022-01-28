@@ -1,0 +1,275 @@
+.services{
+  margin-bottom: 124px;
+  position: relative;
+}
+// .services::before{
+//   content: "";
+//   position: absolute;
+//   top: 242px;
+//   right: 10px;
+//   width: 14px;
+//   height: 26px;
+//   background-image: url("../../image-svg/arrow-right.svg");
+//   background-size: cover;
+// }
+// .services::before:hover{
+//   background-color: fff;
+// }
+// .services::after{
+//   content: "";
+//   position: absolute;
+//   top: 242px;
+//   left: 10px;
+//   width: 14px;
+//   height: 26px;
+//   background-image: url("../../image-svg/arrow-left.svg");  
+//   background-size: cover;
+//   background-position: calc(50%) calc(50% );
+
+.services__arrow-left{
+  position: absolute;
+  top: 242px;
+  left: 10px;
+}
+.services__arrow-right{
+  position: absolute;
+  top: 242px;
+  right: 10px;
+}
+.services__arrow-right:hover{
+  color: #fff;
+}
+.arrow{
+  transition: all 0.3s ease-in-out;
+}
+.arrow:hover{
+  background-color: #fff;
+}
+
+.services__title{
+  margin: 0;
+  text-align: center;
+  margin-bottom: 80px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 54px;
+  color: #333333;
+}
+.services__list{
+  width: 1223px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.services__item{
+  width: 193px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border-radius: 5px 5px 0px 0px;
+  transition: opacity 0.3s ease-in-out;
+}
+.services__item:hover{
+  opacity: 0.8;
+}
+.services__item:active{
+  opacity: 0.6;
+}
+.services__item:nth-child(1){
+  padding: 129px 32px 42px 35px;
+}
+.services__item + .services__item{
+  padding: 129px 32px 28px 35px;
+  margin-left: 13px;
+  margin-bottom: 14px;
+}
+.services__item:nth-child(1){
+  position: relative;
+}
+.services__item:nth-child(2){
+  position: relative;
+}
+.services__item:nth-child(3){
+  position: relative;
+}
+.services__item:nth-child(4){
+  position: relative;
+}
+.services__item:nth-child(5){
+  position: relative;
+}
+.services__item:nth-child(6){
+  position: relative;
+}
+
+.services__item:nth-child(1)::before{
+  position: absolute;
+  top: 30px;
+  left: 71px;
+  content: "";
+  width: 54px;
+  height: 77px;
+  background-image: url("../../image-svg/Initial-inspection.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services__item:nth-child(2)::before{
+  position: absolute;
+  top: 30px;
+  left: 65px;
+  content: "";
+  width: 61px;
+  height: 77px;
+  background-image: url("../../image-svg/filled-outline.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services__item:nth-child(3)::before{
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  content: "";
+  width: 72px;
+  height: 77px;
+  background-image: url("../../image-svg/Surgical-intervention.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services__item:nth-child(4)::before{
+  position: absolute;
+  top: 30px;
+  left: 52px;
+  content: "";
+  width: 76px;
+  height: 76px;
+  background-image: url("../../image-svg/Dermatology.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services__item:nth-child(5)::before{
+  position: absolute;
+  top: 30px;
+  left: 57px;
+  content: "";
+  width: 78px;
+  height: 78px;
+  background-image: url("../../image-svg/Laboratory-diagnostics.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services__item:nth-child(6)::before{
+  position: absolute;
+  top: 30px;
+  left: 58px;
+  content: "";
+  width: 76px;
+  height: 76px;
+  background-image: url("../../image-svg/Ophthalmology.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services__link{
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #333333;
+}
+.services__item-title{
+  width: 126px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+}
+.services__item-checked{
+  display: flex;
+  align-items: center;
+  width: 1223px;
+  padding: 42px 98px 43px 35px;
+  background: #FFFFFF;
+}
+.checked-item__img{
+  width: 590px;
+  height: 332px;
+  border-radius: 6px;
+  margin-right: 67px;
+}
+.checked-item__content{
+  width: 492px;
+}
+.checked-item__title{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 18px;
+}
+.checked-item__text{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin: 0;
+}
+.checked-item__text + .checked-item__text{
+  margin-top: 9px;
+  margin-bottom: 34px;
+}
+.checked-item__link{
+  @include main-link(none, #fff,#FFBD54);
+  display: inline-block;
+  padding: 15px 37px 16px 64px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.checked-item__link + .checked-item__link{
+  @include main-link(none, #fff, #333);
+  margin-left: 21px;
+  
+}
+.checked-item__link + .checked-item__link::before{
+  content: "";
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 37px;
+  background-image: url("../../image-svg/document-icon.svg");
+  background-repeat: no-repeat;
+}
+.checked-item__link::before{
+  content: "";
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 35px;
+  background-image: url("../../image-svg/money-icon.svg");
+  background-repeat: no-repeat;
+}
+.bg-dark:hover{
+  background-color: #FFBD54;
+  color: #333333;
+}
+.bg-dark:active{
+  opacity: 0.6;
+}
+.bg-yellow:hover{
+  background-color: #333;
+  color: #FFBD54;
+}
+.bg-yellow:active{
+  opacity: 0.6;
+}

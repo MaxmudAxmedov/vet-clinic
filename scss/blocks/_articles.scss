@@ -1,0 +1,190 @@
+.articles{
+  width: 1298px;
+  margin: 0 auto;
+  margin-bottom: 262px;
+}
+.even-list__titleBlock{
+  width: 193px;
+}
+.articles__title{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 80px;
+}
+.articles__list{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.articles__item{
+  width: 305px;
+  background: #FEFEFE;
+  border: 1px solid #E4E4E2;
+  border-radius: 5px;
+}
+.articles__item + .articles__item{
+  margin-left: 24px;
+}
+.articles__item:nth-child(2){
+  width: 640px;
+  display: flex;
+  align-items: center;
+}
+.even-list__img{
+  width: 305px;
+  height: 435px;
+  margin-right: 31px;
+}
+.even-list__content{
+  margin-right: 34px;
+}
+.even-list__links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 132px;
+  margin: 0;
+  margin-bottom: 31px;
+}
+.even-list__link{
+  display: inline-block;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3D9CEA;
+}
+.even-list__time{
+  width: 71px;
+  margin-left: 67px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}
+.articles__img{
+  width: 305px;
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+.articles__content{
+  width: 261px;
+  margin: 0 auto;
+}
+.articles__day{
+  display: block;
+  width: 71px;
+  margin-bottom: 2px;
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}
+.articles__content-box{
+  width: 182px;
+}
+.articles__content-title{
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 25px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.even-list__title{
+  margin: 0;
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 29px;
+  color: #333333;
+}
+.even-list__text{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin: 0;
+  margin-bottom: 33px;
+}
+.even-list__href{
+  width: 130px;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  margin-left: 25px;
+  margin-bottom: 14px;
+  transition: all 0.3s ease-in-out;
+}
+.even-list__href:hover{
+  color: #FFBD54;
+}
+.even-list__href:active{
+  color: #333333;
+  opacity: 0.7;
+}
+.even-list__href::before{
+  content: "";
+  position: absolute;
+  left: -28px;
+  width: 23px;
+  height: 21px;
+  background-image: url("../../image-svg/animal-footprint.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.articles__content-text{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin: 0;
+  margin-bottom: 34px;
+}
+.articles__link{
+  display: inline-block;
+  position: relative;
+  width: 131px;
+  margin-left: 25px;
+  margin-bottom: 37px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  transition: color 0.3s ease-in-out;
+}
+.articles__link:hover{
+  color: #FFBD54;
+}
+.articles__link:active{
+  color: #333333;
+  opacity: 0.7;
+}
+.articles__link::before{
+  content: "";
+  position: absolute;
+  left: -28px;
+  width: 23px;
+  height: 21px;
+  background-image: url("../../image-svg/animal-footprint.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

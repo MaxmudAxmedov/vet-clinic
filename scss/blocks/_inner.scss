@@ -1,0 +1,52 @@
+.site-inner{
+  background-image: url("../../image-png/img-animals-group.png"), url("../../image-png/popugay-img.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 650px) calc(50% - 20px), calc(50% + 900px) calc(50% + 200px);
+}
+.inner{
+  padding: 145px 88px 290px 700px;
+  margin-bottom: 91px;
+}
+.inner__content{
+  width: 608px;
+}
+.inner__title{
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 29px;
+}
+.inner__title-blue{
+  display: inline-block;
+  color: #78C0DE;
+  margin: 0;
+}
+.inner__text{
+  margin: 0;
+  margin-bottom: 38px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+}
+.inner__link{
+  width: 181px;
+  @include main-link(none,#fff, #333);
+  padding: 15px 48px 16px 47px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  transition: all 0.3s ease-in-out;
+}
+.inner__link:hover{
+  background-color: #FFBD54;
+  color: #333333;
+}
+.inner__link:active{
+  background-color: #FFBD54;
+  color: #333333;
+  opacity: 0.6;
+}

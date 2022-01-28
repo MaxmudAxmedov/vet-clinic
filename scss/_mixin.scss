@@ -1,0 +1,5 @@
+@mixin main-link ($styleNone, $textColor, $bgColor){
+  text-decoration: $styleNone;
+  color: $textColor;
+  background-color: $bgColor;
+}

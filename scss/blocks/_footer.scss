@@ -1,0 +1,142 @@
+footer{
+  background-color: #F3F3F3;
+}
+.foot{
+  padding: 54px 0 0 65px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+.foot__link{
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  transition: all 0.3s ease-in-out;
+}
+.foot__link:hover{
+  color: #FFBD54;
+}
+.foot__link:active{
+  color: #333333;
+  opacity: 0.7;
+}
+.foot__img{
+  position: absolute;
+  left: -67px;
+  width: 158px;
+  height: 77px;
+}
+.foot__list{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  margin-right: 157px;
+  margin-left: auto;
+  padding: 0;
+}
+
+.foot__item + .foot__item{
+  margin-left: 87px;
+}
+.foot__list-column{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 28px;
+}
+.foot__item-column{
+  margin-bottom: 14px;
+}
+.mr-none{
+  margin-bottom: none;
+}
+.foot__time-block{
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.foot__time-block::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 16px;
+  height: 16px;
+  background-image: url("../../image-svg/schedule-icon.svg");
+  background-repeat: no-repeat;
+}
+.star{
+  margin-bottom: 3px;
+}
+.foot__address{
+  margin-left: 137px; 
+  position: relative;
+}
+.foot__address::before{
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: -25px;
+  width: 17px;
+  height: 16px;
+  background-image: url("../../image-svg/house-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.foot__address-link{
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+.foot__tel-list{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 113px;
+  margin-left: 112px;
+  position: relative;
+}
+.foot__tel-list::before{
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: -25px;
+  width: 16px;
+  height: 16px;
+  background-image: url("../../image-svg/phone-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.foot__tel-link{
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  margin-bottom: 4px;
+}
+.foot__example{
+  width: 214px;
+  display: inline-block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  margin-left: auto;
+  margin-bottom: 23px;
+  align-items: center;
+  text-align: right;
+  color: #5C5C5C;
+}

@@ -1,0 +1,129 @@
+.head{
+  padding: 14px 0 10px 0;
+  margin-left: auto;
+}
+.head__block{
+  width: 1117px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  justify-content: flex-end;
+}
+.head__address-link{
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+}
+.head__address-link::before{
+  position: absolute;
+  top: 2px;
+  left: -19px;
+  content: "";
+  width: 14px;
+  height: 13px;
+  background-image: url("../../image-svg/house-icon.svg");
+}
+.head__list{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  margin-left: 128px;
+  padding: 0;
+}
+.head__item + .head__item{
+  margin-left: 22px;
+}
+.head__item:nth-child(1){
+  position: relative;
+}
+.head__item:nth-child(2){
+  position: relative;
+}
+.head__item:nth-child(3){
+  position: relative;
+}
+.head__item:nth-child(1)::before{
+  position: absolute;
+  top: 3px;
+  left: -20px;
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-image: url("../../image-svg/phone-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head__item:nth-child(2)::before{
+  position: absolute;
+  top: 7.5px;
+  left: -13px;
+  content: "";
+  width: 4px;
+  height: 4px;
+  background-image: url("../../image-svg/Ellipse-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head__item:nth-child(3)::before{
+  position: absolute;
+  top: 7.5px;
+  left: -13px;
+  content: "";
+  width: 4px;
+  height: 4px;
+  background-image: url("../../image-svg/Ellipse-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head__tel-link{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  transition: color 0.3s ease-in-out;
+}
+.head__tel-link:hover{
+  color: #FFBD54;
+}
+.head__tel-link:active{
+  color: #333333;
+  opacity: 0.6;
+}
+.head__time-block{
+  width: 255px;
+  display: flex;
+  margin-left: 119px;
+}
+.head__time{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+}
+.head__time:nth-child(1){
+  position: relative;
+  width: 120px;
+  margin-right: 17px;
+}
+.head__time:nth-child(1)::before{
+  position: absolute;
+  content: "";
+  top: 3px;
+  left: -20px;
+  width: 14px;
+  height: 14px;
+  background-image: url("../../image-svg/schedule-icon.svg");
+  background-repeat: no-repeat;
+}
+.head__time:nth-child(2){
+  width: 118px;
+}
+.head__data-time{
+  display: inline-block;
+  margin: 0;
+}

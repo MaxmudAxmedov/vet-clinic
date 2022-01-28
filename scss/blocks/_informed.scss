@@ -1,0 +1,62 @@
+.site-informed{
+  width: 100%px;
+  height: 600px;
+  background-image: url("../../image-png/dog-img.png");
+  background-repeat: no-repeat;
+  background-position: calc(50%);
+  background-size: 100%;
+  margin: 0 auto;
+  margin-bottom: 151px;
+}
+.informed{
+  padding: 260px 609px 153px 287px;
+}
+.informed__content{
+  width: 544px;
+}
+.informed__title-box{
+  width: 494px;
+  height: 48px;
+  margin-bottom: 32px;
+}
+.informed__title{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  margin: 0;
+}
+form{
+  display: flex;
+}
+.informed__label{
+  width: 335px;
+}
+.informed__email-input{
+  width: 335px;
+  padding: 18px 140px 12px 22px;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #949494;
+}
+.informed__btn{
+  width: 188px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  margin-left: 21px;
+  padding: 15px 53px 14px 51px;
+}
